@@ -84,7 +84,7 @@ const AppreciationSection = () => {
             We deliver quality driven by innovation, research & experience
           </p>
           <a
-            href="/quote"
+            href="/#contact"
             className="bg-[#0B6B9E] hover:bg-[#095A86] text-white font-bold py-2.5 px-6 rounded-lg transition flex items-center"
           >
             Get a Quote
