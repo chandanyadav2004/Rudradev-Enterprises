@@ -6,17 +6,17 @@ import HeroRight from './HeroRight';
 const HeroSection = () => {
   return (
     <main className="bg-[#F6FBFF] relative overflow-hidden">
-      
+
       {/* Subtle background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-[#F6FBFF] via-white to-[#EAF4FB]" />
 
       <section className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        
+
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          
+
           {/* --- LEFT COLUMN --- */}
           <div className="flex flex-col space-y-5">
-            
+
             {/* Badge */}
             <span className="inline-block w-fit text-sm font-semibold px-4 py-1.5 rounded-full bg-[#E6F2FA] text-[#0B6B9E]">
               ISO Certified • Industrial Flooring Experts
@@ -87,7 +87,7 @@ const HeroSection = () => {
               ))}
             </div>
           </div>
-          
+
           {/* --- RIGHT COLUMN --- */}
           <div className="flex justify-center lg:justify-end">
             <HeroRight />
@@ -97,8 +97,8 @@ const HeroSection = () => {
       </section>
 
       {/* WhatsApp Button */}
-      <a 
-        href="https://wa.me/919511905213"
+      <a
+        href="https://wa.me/919167620398?text=I%20am%20interested"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-2xl transition transform hover:scale-105"
@@ -106,6 +106,7 @@ const HeroSection = () => {
       >
         <MessageSquare size={32} />
       </a>
+
 
     </main>
   );
