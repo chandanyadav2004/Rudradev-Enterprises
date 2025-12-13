@@ -53,10 +53,10 @@ const HeroSection = () => {
             </div>
 
             <a
-              href="mailto:info@rudradeventerprises.com"
+              href="mailto:chauhansandeep2336@gmail.com"
               className="text-sm text-[#64748B] hover:text-[#0B6B9E] transition"
             >
-              info@rudradeventerprises.com
+              chauhansandeep2336@gmail.com
             </a>
 
             {/* Feature cards */}
