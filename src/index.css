@@ -1,0 +1,19 @@
+/* @import "tailwindcss"; */
+
+@import "tailwindcss";
+
+/* Infinite vertical slide (video feel) */
+.slider {
+  display: flex;
+  flex-direction: column;
+  animation: slideUp 10s linear infinite;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
