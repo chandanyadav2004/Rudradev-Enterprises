@@ -21,10 +21,10 @@ const Header = () => {
           
           <div className="flex items-center space-x-3 lg:space-x-5">
             <a 
-              href="tel:+919607955341" 
+              href="tel:+919167620398" 
               className="text-sm text-text-muted hover:text-accent-blue transition duration-200 hidden sm:inline-block"
             >
-              📞 +91 96079 55341
+              📞 +91 91676 20398
             </a>
             
             {/* CTA Button uses the new accent-blue */}
